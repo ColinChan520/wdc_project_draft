@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Club management</title>
+    <link rel="stylesheet" type="text/css" href="managerPostEvent.css">
+</head>
+
+<body>
+    <!-- Post页面展示界面 -->
+    <div class="header">
+        <h1>Lakers Fans Club</h1>
+    </div>
+
+    <!-- 导航栏展示，包括组员和post板块 -->
+    <div class="navbar">
+        <a href="#">Members</a>
+        <a href="#">Post</a>
+    </div>
+
+    <!-- 俱乐部头像 -->
+    <div class="row">
+        <div class="side">
+            <div class="fakeimg" style="height:300px;">
+                <img src="Lakers.png" alt="Lakers club" width="100%" height="100%">
+            </div>
+
+            <!-- post选择是否为public或者private -->
+            <div id="selection">
+            <h2>Edit your post:</h2>
+            <label for="selectForm" style="font-size: 150%;">Standard Selection</label>
+            <form action="selectForm" id="selectForm">
+                <input type="radio" name="selection" value="Public">Public<br>
+                <input type="radio" name="selection" value="Private">Private
+            </form><br />
+        </div>
+        </div>
+
+
+        <!-- post输入框 -->
+        <div class="main">
+            <div>
+                <h2>Please enter the content you wish to post here:</h2>
+                <input type="text" name="content" id="post">
+            </div>
+            <br />
+
+            <!-- post按钮 -->
+            <div id="post_button">
+                <button type="button" class="post_event" >Post your event</button>
+            </div>
+        </div>
+        <br />
+
+    </div>
+</body>
+
+</html>
