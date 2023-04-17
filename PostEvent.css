@@ -86,10 +86,9 @@ body {
 
 /* post选择范围 */
 #selection{
-   position:fixed;
    left:10%;
-   width:100%;
-   height:100%;
+   width:30%;
+   height:30%;
 }
 
 /* 选择器放大 */
@@ -102,7 +101,7 @@ body {
     outline-style: none;
     border: 2px solid #ccc;
     border-radius: 20px;
-    padding: 15%;
+    padding: 5%;
     width: 100%;
     font-size: 14px;
     font-family: "Microsoft soft";
@@ -119,7 +118,7 @@ body {
     float: right;
 }
 .post_event {
-    display: inline-block;
+    display:block;
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
@@ -131,7 +130,7 @@ body {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    
+
 }
 .post_event:hover {
     background-color: #3e8e41
